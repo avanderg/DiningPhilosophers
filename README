@@ -1,0 +1,11 @@
+Name: Aaron VanderGraaff (avanderg)
+
+This program simulates the dining philosopher problem. By default,
+there are five philosophers and they each go through their eat/think
+cycle once. The amount of philosophers is determined by the constant
+NUM_PHILOSOPHERS and can be adjusted in dine.h or at compile time using
+the -DNUM_PHILOSOPHERS=<new num> flag. The amount of times a philosopher
+goes through its eat/think cycle is determined by a command line argument.
+Change it simply at run time: ./dine <num_of_cycles>. Num_of_cycles cannot
+be less than 0 and NUM_PHILOSOPHERS cannot be less than 2 (1 creates deadlock).
+
